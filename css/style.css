@@ -1,0 +1,134 @@
+html {
+	background-color: #EDF2C5;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDF2C5;
+}
+
+/* Header Style */
+.header {
+    width: 100%;
+    height: 62px;
+	margin-top: 36px;
+	margin-left: auto;
+	margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+	color: #778A50;
+	margin: 0;
+	font-size: 44px;
+	font-weight: 900;
+}
+
+.btn_gp{
+	display: flex;
+    width: 208px;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.btn_fb,
+.btn_ig {
+	width: 24px;
+	height: 24px;
+}
+
+.btn_login,
+.btn_join {
+	width: max-content;
+	height: Hug (27px)px;
+	left: 83px;
+	border: 1px solid #778A50;
+	padding: 4px 8px 4px 8px;
+	border-radius: 3px;
+	color: #778A50;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.line{
+	height: 24px;
+	border-right: 1px solid #778A50;
+}
+
+/* Navitation Bar Style */
+.nav {
+	width: 100%;
+	height: 44px;
+	border-radius: 3px;
+    background-color: #617140;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.nav-list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	justify-content: space-between;
+}
+
+.nav-list-item {
+	height: 24px;
+	display: inline;
+	width: fit-content;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 24px;
+	text-align: left;
+
+}
+
+.nav-list-item-link {
+	color: #EDF2C5;
+	text-decoration: none;
+}
+
+.nav-list-item:hover {
+	background-color: #e5e9dc;
+}
+
+
+/* Main-Area Style */
+.main-area {
+	display: flex;
+    width: 100%;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+/* Footer */
+.footer {
+    height: 60px;
+	width: 100%;
+	line-height: 60px;
+    margin-top: 60px;
+    background-color: #778A50;
+	color: #EDF2C5;
+	border-radius: 3px;
+	text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
